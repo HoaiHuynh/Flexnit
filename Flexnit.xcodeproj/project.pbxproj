@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */; };
+		15ABCBBE2BA1E1C200DB11DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */; };
+		15ABCBC02BA1E1C200DB11DC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */; };
+		15ABCBC52BA1E1C300DB11DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15ABCBC42BA1E1C300DB11DC /* Assets.xcassets */; };
+		15ABCBC82BA1E1C300DB11DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15ABCBC62BA1E1C300DB11DC /* LaunchScreen.storyboard */; };
+		15ABCBD12BA1E38E00DB11DC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBD02BA1E38E00DB11DC /* HomeViewController.swift */; };
+		15ABCBD32BA1E3B000DB11DC /* UpComingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBD22BA1E3B000DB11DC /* UpComingViewController.swift */; };
+		15ABCBD52BA1E3C500DB11DC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBD42BA1E3C500DB11DC /* SearchViewController.swift */; };
+		15ABCBD72BA1E3DD00DB11DC /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBD62BA1E3DD00DB11DC /* DownloadsViewController.swift */; };
+		15ABCBDE2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBDD2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift */; };
+		15ABCBE02BA1EFAE00DB11DC /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBDF2BA1EFAE00DB11DC /* HeroHeaderUIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15ABCBB82BA1E1C200DB11DC /* Flexnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		15ABCBC42BA1E1C300DB11DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15ABCBC72BA1E1C300DB11DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15ABCBC92BA1E1C300DB11DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15ABCBD02BA1E38E00DB11DC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		15ABCBD22BA1E3B000DB11DC /* UpComingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewController.swift; sourceTree = "<group>"; };
+		15ABCBD42BA1E3C500DB11DC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		15ABCBD62BA1E3DD00DB11DC /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		15ABCBDD2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		15ABCBDF2BA1EFAE00DB11DC /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15ABCBB52BA1E1C200DB11DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15ABCBAF2BA1E1C200DB11DC = {
+			isa = PBXGroup;
+			children = (
+				15ABCBBA2BA1E1C200DB11DC /* Flexnit */,
+				15ABCBB92BA1E1C200DB11DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15ABCBB92BA1E1C200DB11DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15ABCBB82BA1E1C200DB11DC /* Flexnit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15ABCBBA2BA1E1C200DB11DC /* Flexnit */ = {
+			isa = PBXGroup;
+			children = (
+				15ABCBDC2BA1EB5100DB11DC /* Manager */,
+				15ABCBDB2BA1EB4200DB11DC /* Resources */,
+				15ABCBDA2BA1EB2D00DB11DC /* Models */,
+				15ABCBD92BA1EB2300DB11DC /* ViewModels */,
+				15ABCBD82BA1EB1C00DB11DC /* Views */,
+				15ABCBCF2BA1E35400DB11DC /* Controllers */,
+				15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */,
+				15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */,
+				15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */,
+				15ABCBC42BA1E1C300DB11DC /* Assets.xcassets */,
+				15ABCBC62BA1E1C300DB11DC /* LaunchScreen.storyboard */,
+				15ABCBC92BA1E1C300DB11DC /* Info.plist */,
+			);
+			path = Flexnit;
+			sourceTree = "<group>";
+		};
+		15ABCBCF2BA1E35400DB11DC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				15ABCBD02BA1E38E00DB11DC /* HomeViewController.swift */,
+				15ABCBD22BA1E3B000DB11DC /* UpComingViewController.swift */,
+				15ABCBD42BA1E3C500DB11DC /* SearchViewController.swift */,
+				15ABCBD62BA1E3DD00DB11DC /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		15ABCBD82BA1EB1C00DB11DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15ABCBDD2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift */,
+				15ABCBDF2BA1EFAE00DB11DC /* HeroHeaderUIView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15ABCBD92BA1EB2300DB11DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		15ABCBDA2BA1EB2D00DB11DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15ABCBDB2BA1EB4200DB11DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		15ABCBDC2BA1EB5100DB11DC /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15ABCBB72BA1E1C200DB11DC /* Flexnit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15ABCBCC2BA1E1C300DB11DC /* Build configuration list for PBXNativeTarget "Flexnit" */;
+			buildPhases = (
+				15ABCBB42BA1E1C200DB11DC /* Sources */,
+				15ABCBB52BA1E1C200DB11DC /* Frameworks */,
+				15ABCBB62BA1E1C200DB11DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flexnit;
+			productName = Flexnit;
+			productReference = 15ABCBB82BA1E1C200DB11DC /* Flexnit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15ABCBB02BA1E1C200DB11DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					15ABCBB72BA1E1C200DB11DC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 15ABCBB32BA1E1C200DB11DC /* Build configuration list for PBXProject "Flexnit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15ABCBAF2BA1E1C200DB11DC;
+			productRefGroup = 15ABCBB92BA1E1C200DB11DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15ABCBB72BA1E1C200DB11DC /* Flexnit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15ABCBB62BA1E1C200DB11DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ABCBC82BA1E1C300DB11DC /* LaunchScreen.storyboard in Resources */,
+				15ABCBC52BA1E1C300DB11DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15ABCBB42BA1E1C200DB11DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15ABCBD52BA1E3C500DB11DC /* SearchViewController.swift in Sources */,
+				15ABCBC02BA1E1C200DB11DC /* MainTabBarViewController.swift in Sources */,
+				15ABCBE02BA1EFAE00DB11DC /* HeroHeaderUIView.swift in Sources */,
+				15ABCBDE2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift in Sources */,
+				15ABCBD72BA1E3DD00DB11DC /* DownloadsViewController.swift in Sources */,
+				15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */,
+				15ABCBD32BA1E3B000DB11DC /* UpComingViewController.swift in Sources */,
+				15ABCBBE2BA1E1C200DB11DC /* SceneDelegate.swift in Sources */,
+				15ABCBD12BA1E38E00DB11DC /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15ABCBC62BA1E1C300DB11DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15ABCBC72BA1E1C300DB11DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15ABCBCA2BA1E1C300DB11DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15ABCBCB2BA1E1C300DB11DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15ABCBCD2BA1E1C300DB11DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JQ998RPDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flexnit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.Flexnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15ABCBCE2BA1E1C300DB11DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7JQ998RPDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flexnit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.com.Flexnit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15ABCBB32BA1E1C200DB11DC /* Build configuration list for PBXProject "Flexnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15ABCBCA2BA1E1C300DB11DC /* Debug */,
+				15ABCBCB2BA1E1C300DB11DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15ABCBCC2BA1E1C300DB11DC /* Build configuration list for PBXNativeTarget "Flexnit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15ABCBCD2BA1E1C300DB11DC /* Debug */,
+				15ABCBCE2BA1E1C300DB11DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15ABCBB02BA1E1C200DB11DC /* Project object */;
+}
