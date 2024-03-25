@@ -17,6 +17,7 @@
 		1590F9832BAB2969001CEB52 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9822BAB2969001CEB52 /* MovieTableViewCell.swift */; };
 		1590F9852BAB2BD2001CEB52 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9842BAB2BD2001CEB52 /* MovieViewModel.swift */; };
 		1590F9872BAB2F5E001CEB52 /* NFIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9862BAB2F5E001CEB52 /* NFIconButton.swift */; };
+		1590F9892BB1BD15001CEB52 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9882BB1BD15001CEB52 /* SearchResultsViewController.swift */; };
 		15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */; };
 		15ABCBBE2BA1E1C200DB11DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */; };
 		15ABCBC02BA1E1C200DB11DC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */; };
@@ -39,6 +40,7 @@
 		1590F9822BAB2969001CEB52 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		1590F9842BAB2BD2001CEB52 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		1590F9862BAB2F5E001CEB52 /* NFIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFIconButton.swift; sourceTree = "<group>"; };
+		1590F9882BB1BD15001CEB52 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		15ABCBB82BA1E1C200DB11DC /* Flexnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,26 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		1590F98A2BB1BD3E001CEB52 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */,
+				15ABCBD02BA1E38E00DB11DC /* HomeViewController.swift */,
+				15ABCBD22BA1E3B000DB11DC /* UpComingViewController.swift */,
+				15ABCBD42BA1E3C500DB11DC /* SearchViewController.swift */,
+				15ABCBD62BA1E3DD00DB11DC /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1590F98B2BB1BD52001CEB52 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				1590F9882BB1BD15001CEB52 /* SearchResultsViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		15ABCBAF2BA1E1C200DB11DC = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +125,6 @@
 				15ABCBCF2BA1E35400DB11DC /* Controllers */,
 				15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */,
 				15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */,
-				15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */,
 				15ABCBC42BA1E1C300DB11DC /* Assets.xcassets */,
 				15ABCBC62BA1E1C300DB11DC /* LaunchScreen.storyboard */,
 				15ABCBC92BA1E1C300DB11DC /* Info.plist */,
@@ -114,10 +135,8 @@
 		15ABCBCF2BA1E35400DB11DC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				15ABCBD02BA1E38E00DB11DC /* HomeViewController.swift */,
-				15ABCBD22BA1E3B000DB11DC /* UpComingViewController.swift */,
-				15ABCBD42BA1E3C500DB11DC /* SearchViewController.swift */,
-				15ABCBD62BA1E3DD00DB11DC /* DownloadsViewController.swift */,
+				1590F98B2BB1BD52001CEB52 /* General */,
+				1590F98A2BB1BD3E001CEB52 /* Core */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -250,6 +269,7 @@
 				15097E852BA88A7E0008AAD6 /* APICaller.swift in Sources */,
 				15ABCBDE2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift in Sources */,
 				1590F9832BAB2969001CEB52 /* MovieTableViewCell.swift in Sources */,
+				1590F9892BB1BD15001CEB52 /* SearchResultsViewController.swift in Sources */,
 				15ABCBD72BA1E3DD00DB11DC /* DownloadsViewController.swift in Sources */,
 				15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */,
 				15097E8F2BA9E5420008AAD6 /* MovieCollectionViewCell.swift in Sources */,

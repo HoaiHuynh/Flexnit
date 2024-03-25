@@ -144,4 +144,56 @@ class APICaller {
 
         task.resume()
     }
+
+    func getDiscoverMovies(completion: @escaping (Result<[Movie], Error>) -> Void) {
+        guard let url = URL(string: "\(Constants.domain)/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc") else {
+            return
+        }
+
+        let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
+
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = headers
+
+        let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { data, _, error in
+            guard let data = data, error == nil else { return }
+
+            do {
+                let results = try JSONDecoder().decode(MovieResponse.self, from: data)
+                completion(.success(results.results))
+            } catch {
+                completion(.failure(APIErrors.failToGetData))
+            }
+
+        })
+
+        task.resume()
+    }
+
+    func search(with query: String, completion: @escaping (Result<[Movie], Error>) -> Void) {
+        guard let query = query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else { return }
+
+        guard let url = URL(string: "\(Constants.domain)/search/movie?query=\(query)&include_adult=false&language=en-US&page=1") else {
+            return
+        }
+
+        let request = NSMutableURLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10.0)
+
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = headers
+
+        let task = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: { data, _, error in
+            guard let data = data, error == nil else { return }
+
+            do {
+                let results = try JSONDecoder().decode(MovieResponse.self, from: data)
+                completion(.success(results.results))
+            } catch {
+                completion(.failure(APIErrors.failToGetData))
+            }
+
+        })
+
+        task.resume()
+    }
 }
