@@ -1,5 +1,5 @@
 //
-//  TitleCollectionViewCell.swift
+//  MovieCollectionViewCell.swift
 //  Flexnit
 //
 //  Created by Huynh Van Hoai on 19/03/2024.
@@ -8,13 +8,17 @@
 import SDWebImage
 import UIKit
 
-class TitleCollectionViewCell: UICollectionViewCell {
-    static let identifier = "TitleCollectionViewCell"
+class MovieCollectionViewCell: UICollectionViewCell {
+    static let identifier = "MovieCollectionViewCell"
     
     private let posterImageView: UIImageView = {
         let imageView = UIImageView()
         
         imageView.contentMode = .scaleAspectFill
+        imageView.layer.cornerRadius = 7
+        imageView.clipsToBounds = true
+        
+        imageView.translatesAutoresizingMaskIntoConstraints = false
         
         return imageView
     }()
@@ -36,8 +40,7 @@ class TitleCollectionViewCell: UICollectionViewCell {
     }
     
     public func configure(with model: String) {
-        
-        guard let url = URL(string: "\(Constants.baseImageURL)/\(model)") else {return}
+        guard let url = URL(string: "\(Constants.baseImageURL)/\(model)") else { return }
 
         posterImageView.sd_setImage(with: url, completed: nil)
     }

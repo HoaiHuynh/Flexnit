@@ -8,42 +8,17 @@
 import UIKit
 
 class HeroHeaderUIView: UIView {
-//    private let downloadButton: UIButton = {
-//        let button = UIButton()
-//        
-//        button.setTitle("Download", for: .normal)
-//        button.setTitleColor(.white, for: .normal)
-//        button.setImage(UIImage(systemName: "plus"), for: .normal)
-//        button.layer.borderColor = UIColor.white.cgColor
-//        button.tintColor = UIColor.white
-//        button.configuration?.imagePadding = 8
-//        button.layer.borderWidth = 1
-//        button.layer.cornerRadius = 8
-//        button.translatesAutoresizingMaskIntoConstraints = false
-//        
-//        return button
-//    }()
-//    
-//    private let playButton: UIButton = {
-//        let button = UIButton()
-//        
-//        button.setTitle("Play", for: .normal)
-//        button.setTitleColor(.black, for: .normal)
-//        button.setImage(UIImage(systemName: "play.fill"), for: .normal)
-//        button.layer.borderColor = UIColor.white.cgColor
-//        button.layer.backgroundColor = UIColor.white.cgColor
-//        button.tintColor = UIColor.black
-//        button.layer.cornerRadius = 8
-//        button.translatesAutoresizingMaskIntoConstraints = false
-//        
-//        return button
-//    }()
     
     private let heroImageView: UIImageView = {
         let imageView = UIImageView()
+        
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
+        
+        imageView.layer.cornerRadius = 14
+        
         imageView.image = UIImage(named: "DunePoster")
+        
         return imageView
     }()
     

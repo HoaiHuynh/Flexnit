@@ -10,10 +10,13 @@
 		15097E852BA88A7E0008AAD6 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15097E842BA88A7E0008AAD6 /* APICaller.swift */; };
 		15097E872BA893B20008AAD6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15097E862BA893B20008AAD6 /* Movie.swift */; };
 		15097E892BA9D9DC0008AAD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15097E882BA9D9DC0008AAD6 /* Extensions.swift */; };
-		15097E8F2BA9E5420008AAD6 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15097E8E2BA9E5420008AAD6 /* TitleCollectionViewCell.swift */; };
+		15097E8F2BA9E5420008AAD6 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15097E8E2BA9E5420008AAD6 /* MovieCollectionViewCell.swift */; };
 		15097E922BA9E6830008AAD6 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 15097E912BA9E6830008AAD6 /* SDWebImage */; };
 		15097E942BA9E6830008AAD6 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 15097E932BA9E6830008AAD6 /* SDWebImageMapKit */; };
 		1590F9812BA9FAF9001CEB52 /* NFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9802BA9FAF9001CEB52 /* NFButton.swift */; };
+		1590F9832BAB2969001CEB52 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9822BAB2969001CEB52 /* MovieTableViewCell.swift */; };
+		1590F9852BAB2BD2001CEB52 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9842BAB2BD2001CEB52 /* MovieViewModel.swift */; };
+		1590F9872BAB2F5E001CEB52 /* NFIconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1590F9862BAB2F5E001CEB52 /* NFIconButton.swift */; };
 		15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */; };
 		15ABCBBE2BA1E1C200DB11DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */; };
 		15ABCBC02BA1E1C200DB11DC /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABCBBF2BA1E1C200DB11DC /* MainTabBarViewController.swift */; };
@@ -31,8 +34,11 @@
 		15097E842BA88A7E0008AAD6 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		15097E862BA893B20008AAD6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		15097E882BA9D9DC0008AAD6 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		15097E8E2BA9E5420008AAD6 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		15097E8E2BA9E5420008AAD6 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
 		1590F9802BA9FAF9001CEB52 /* NFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFButton.swift; sourceTree = "<group>"; };
+		1590F9822BAB2969001CEB52 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		1590F9842BAB2BD2001CEB52 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		1590F9862BAB2F5E001CEB52 /* NFIconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFIconButton.swift; sourceTree = "<group>"; };
 		15ABCBB82BA1E1C200DB11DC /* Flexnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flexnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15ABCBBB2BA1E1C200DB11DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15ABCBBD2BA1E1C200DB11DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				1590F9802BA9FAF9001CEB52 /* NFButton.swift */,
+				1590F9862BAB2F5E001CEB52 /* NFIconButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -121,7 +128,8 @@
 				1590F97F2BA9FAB1001CEB52 /* Buttons */,
 				15ABCBDD2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift */,
 				15ABCBDF2BA1EFAE00DB11DC /* HeroHeaderUIView.swift */,
-				15097E8E2BA9E5420008AAD6 /* TitleCollectionViewCell.swift */,
+				15097E8E2BA9E5420008AAD6 /* MovieCollectionViewCell.swift */,
+				1590F9822BAB2969001CEB52 /* MovieTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 		15ABCBD92BA1EB2300DB11DC /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				1590F9842BAB2BD2001CEB52 /* MovieViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -235,15 +244,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				15ABCBD52BA1E3C500DB11DC /* SearchViewController.swift in Sources */,
+				1590F9872BAB2F5E001CEB52 /* NFIconButton.swift in Sources */,
 				15ABCBC02BA1E1C200DB11DC /* MainTabBarViewController.swift in Sources */,
 				15ABCBE02BA1EFAE00DB11DC /* HeroHeaderUIView.swift in Sources */,
 				15097E852BA88A7E0008AAD6 /* APICaller.swift in Sources */,
 				15ABCBDE2BA1EB9200DB11DC /* CollectionViewTableViewCell.swift in Sources */,
+				1590F9832BAB2969001CEB52 /* MovieTableViewCell.swift in Sources */,
 				15ABCBD72BA1E3DD00DB11DC /* DownloadsViewController.swift in Sources */,
 				15ABCBBC2BA1E1C200DB11DC /* AppDelegate.swift in Sources */,
-				15097E8F2BA9E5420008AAD6 /* TitleCollectionViewCell.swift in Sources */,
+				15097E8F2BA9E5420008AAD6 /* MovieCollectionViewCell.swift in Sources */,
 				15097E892BA9D9DC0008AAD6 /* Extensions.swift in Sources */,
 				15ABCBD32BA1E3B000DB11DC /* UpComingViewController.swift in Sources */,
+				1590F9852BAB2BD2001CEB52 /* MovieViewModel.swift in Sources */,
 				15ABCBBE2BA1E1C200DB11DC /* SceneDelegate.swift in Sources */,
 				15097E872BA893B20008AAD6 /* Movie.swift in Sources */,
 				15ABCBD12BA1E38E00DB11DC /* HomeViewController.swift in Sources */,

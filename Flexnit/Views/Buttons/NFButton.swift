@@ -8,29 +8,27 @@
 import UIKit
 
 class NFButton: UIButton {
-
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
-    
+
+    @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("Init(coder: ) has not been implemented")
     }
-    
+
     init(color: UIColor, title: String, systemImageName: String) {
         super.init(frame: .zero)
-        
-        
+
         configuration = .tinted()
         configuration?.baseForegroundColor = color
         configuration?.baseBackgroundColor = color
         configuration?.cornerStyle = .medium
         configuration?.title = title.capitalizeFirstLetter()
-        
+
         configuration?.image = UIImage(systemName: systemImageName)
         configuration?.imagePadding = 8
-        
+
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }

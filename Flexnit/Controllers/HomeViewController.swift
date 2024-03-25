@@ -46,10 +46,11 @@ class HomeViewController: UIViewController {
     }
 
     private func configureNavBar() {
-        var image = UIImage(named: "FlexnitLogo")
-        image = image?.withRenderingMode(.alwaysOriginal)
-
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: image, style: .done, target: self, action: nil)
+        let barButtonItem: UIBarButtonItem = UIBarButtonItem(title: "For Flexnit", style: .done, target: self, action: nil)
+    
+        barButtonItem.setTitleTextAttributes([.font: UIFont.systemFont(ofSize: 24, weight: .bold)], for: .normal)
+        
+        navigationItem.leftBarButtonItem = barButtonItem
 
         navigationItem.rightBarButtonItems = [
             UIBarButtonItem(image: UIImage(systemName: "person"), style: .done, target: self, action: nil),
@@ -154,10 +155,10 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         return sectionTitles[section]
     }
 
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        let defaultOffset = view.safeAreaInsets.top
-        let offset = scrollView.contentOffset.y + defaultOffset
-
-        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
-    }
+//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+//        let defaultOffset = view.safeAreaInsets.top
+//        let offset = scrollView.contentOffset.y + defaultOffset
+//
+//        navigationController?.navigationBar.transform = .init(translationX: 0, y: min(0, -offset))
+//    }
 }
